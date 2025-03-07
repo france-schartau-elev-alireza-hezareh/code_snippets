@@ -4,7 +4,7 @@ from flaskblog import app
 @pytest.fixture
 def client():
     """Create a test client for the Flask app."""
-    app.config["TESTING"] = True  # Enable testing mode
+    app.config["TESTING"] = True  # Enable testing 
     client = app.test_client()
     return client
 
