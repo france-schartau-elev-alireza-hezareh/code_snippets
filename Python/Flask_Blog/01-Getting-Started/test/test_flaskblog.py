@@ -52,4 +52,4 @@ def test_fail_in_response_data(client):
     """This test will fail because 'Nonexistent Text' is not in the response."""
     response = client.get("/about")
     assert b"Nonexistent Text" in response.data  # This will fail
-#tests added
+#tests added   
